@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
+import resume from './resume/Chandler Hanson - SE Resume 2,15,21.pdf'
 
 function App() {
   return (
     <div className="App">
-      <h1 className='title'>Hello! I am Chandler Hanson! I am a Software Engineer</h1>
+      <h1 className='title'>Hello! I am Chandler Hanson! I am a Software Engineer!</h1>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -30,6 +31,9 @@ function App() {
           Bootcamp where I learned web development skills and languages such as Ruby, Ruby on Rails, JavaScript, and React.js 
           to make full-fledged web applications. When I am not coding, I like to bake, read, play videogames, and play basketball. </p>
           <br></br>
+      </div>
+      <div className='resumeDiv'>
+        <a target="_blank" rel="noreferrer" href={resume}>resume</a>
       </div>
       <div className='contactDiv'>
         <h2>Contact Me</h2>
