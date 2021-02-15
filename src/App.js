@@ -1,26 +1,15 @@
 import React from 'react'
 import './App.css'
 import resume from './resume/Chandler Hanson - SE Resume 2,15,21.pdf'
+import image from './images/chandler photo.jpg'
 
 function App() {
   return (
     <div className="App">
       <h1 className='title'>Hello! I am Chandler Hanson! I am a Software Engineer!</h1>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      
       <div className='aboutDiv'>
+        <img className='photo' src={image} alt='chandler photo' width='200px'/>
         <h3>About Me</h3>
         <p>Hello, my name is Chandler Hanson and I am from Sammamish, WA. 
           I recently I graduated from University of Washington with a Bachelor of Science in Earth and Space Science 
@@ -34,6 +23,14 @@ function App() {
       </div>
       <div className='resumeDiv'>
         <a target="_blank" rel="noreferrer" href={resume}>resume</a>
+      </div>
+      <div className='projectsDiv'>
+        <h3>this will be my projects section that has projects</h3>
+      </div>
+      <div className='articlesDiv'>
+        <h3>this will be my articles section that has my medium articles</h3>
+        <h4>here is the link to my medium homepage</h4>
+        <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
       </div>
       <div className='contactDiv'>
         <h2>Contact Me</h2>
