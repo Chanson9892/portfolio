@@ -24,7 +24,7 @@ function App() {
       <div className='resumeDiv'>
         <a target="_blank" rel="noreferrer" href={resume}>resume</a>
       </div>
-      <div className='projectsDiv'>
+      <div id='projects' className='projectsDiv'>
         <h3>this will be my projects section that has projects</h3>
       </div>
       <div className='articlesDiv'>
