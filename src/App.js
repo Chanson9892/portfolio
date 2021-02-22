@@ -26,7 +26,7 @@ function App() {
         <a target="_blank" rel="noreferrer" href={resume}>Resume</a>
       </div>
       <div id='projects' className='projectsDiv'>
-       
+        <ProjectList/>
       </div>
       <div className='articlesDiv'>
         <h4>here is the link to my medium homepage where I post articles weekly!</h4>
