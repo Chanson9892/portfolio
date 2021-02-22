@@ -3,10 +3,10 @@ import noteTakerDemo from './projectDemos/note taker demo.mp4'
 import breakoutDemo from './projectDemos/breakout demo.mp4'
 
 
-let projectData = [
+const projectData = [
     {
         title:'Recipe Finder',
-        description: 'Search for recipes based on a search words. This will give multiple recipes to choose from to look at ingredients, an image of the meal, and a link to the recipe website. You can filter your recipe search to include certain ingredients and will give recipes that include those ingredients. You can also favorite a recipe to save it for later on your profile page. On your profile page, you can add, delete, and edit comments to the recipes.',
+        description: 'Recipe Finder is a single page application with a Rails backend and a React.js frontend. User searches for recipes based on a search query. This will give multiple recipes to choose from to look at ingredients, an image of the meal, and a link to the recipe website. the user can filter your recipe search to include certain ingredients and will give recipes that include those ingredients. You can also favorite a recipe to save it for later on your profile page. On your profile page, you can add, delete, and edit comments to the recipes.',
         github: 'https://github.com/Chanson9892/recipe-finder-frontend',
         youtube_link: 'https://www.youtube.com/watch?v=xqC_cCqJnA8&feature=youtu.be',
         video: recipeFinderDemo
@@ -27,3 +27,5 @@ let projectData = [
     }
 
 ]
+
+export default projectData
