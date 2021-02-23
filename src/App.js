@@ -7,10 +7,11 @@ import ProjectList from './containers/ProjectList.js'
 function App() {
   return (
     <div className="App">
-      <h1 className='title'>Hello! I am Chandler Hanson! I am a Software Engineer!</h1>
       
       <div className='aboutDiv'>
-        <img className='photo' src={image} alt='chandler photo' width='200px'/>
+        <img className='photo' src={image} alt='chandler photo' />
+        <h1 className='title'>Hello! I am Chandler Hanson! I am a Software Engineer!</h1>
+        <br></br>
         <h3>About Me</h3>
         <p>Hello, my name is Chandler Hanson and I am from Sammamish, WA. 
           I recently I graduated from University of Washington with a Bachelor of Science in Earth and Space Science 

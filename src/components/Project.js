@@ -6,7 +6,7 @@ export default class Project extends Component {
         let {title, description, github, youtube_link, video} = this.props.project
         return(
             <div className='projectVideoCard'>
-                <video className="video" controls preload="auto" width="250" height="250">
+                <video className="video" controls preload="auto" width="500" height="300" >
                     <source src={video} type="video/mp4"/>
                 </video>
                 <div className="projectTextCard">

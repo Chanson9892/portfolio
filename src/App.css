@@ -1,12 +1,13 @@
 
 *{
   margin: 0;
-  padding: 0;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 .App {
   text-align: center;
+  background-color: rgb(241, 252, 249);
 }
 
 .App-logo {
@@ -14,5 +15,26 @@
   pointer-events: none;
 }
 
+.aboutDiv {
+  padding: 30px;
+}
 
+.photo {
+  box-shadow: 5px 5px 20px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.projectsDiv {
+  padding: 30px;
+}
+
+.projectVideoCard {
+  display:flex;
+  padding-bottom:10px;
+}
+
+.projectTextCard {
+  
+}
 
