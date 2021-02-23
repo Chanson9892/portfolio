@@ -17,6 +17,7 @@
 
 .aboutDiv {
   padding: 30px;
+  /* background: linear-gradient(135deg, rgb(107, 231, 231) 50%, white); */
 }
 
 .photo {
@@ -34,7 +35,20 @@
   padding-bottom:10px;
 }
 
-.projectTextCard {
-  
+a {
+  display: inline-block;
+    position: relative;
+    padding: .8rem 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+    z-index: 1;
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+    background-color:transparent;
+    border-color: black;
+
 }
 
+a:hover {
+  background-color:lightgreen;
+  background-repeat: no-repeat;
+}
