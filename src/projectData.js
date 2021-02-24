@@ -20,7 +20,7 @@ const projectData = [
     },
     {
         title:'Breakout',
-        description: "Breakout is a fun reimagination of Atari's classic game, 'Breakout'. The user plays a platform that can move right or left using the left and right arrows. The objective is to destroy all the blocks by ricocheting the ball off the platform and the walls to hit all the blocks without losing all their lives. If the player's platform misses the ball's ricochet, they will lose a life. The player has three lives to destroy all the blocks. If not able to do so, the game will end and the player will have to restart",
+        description: "Breakout is a fun reimagination of Atari's classic game, 'Breakout'. The user plays a platform that can move right or left using the left and right arrows. The objective is to destroy all the blocks by ricocheting the ball off the platform and the walls to hit all the blocks without losing all their lives. If the player's platform misses the ball's ricochet, they will lose a life. The player has three lives to destroy all the blocks. If not able to do so, the game will end and the player will have to restart.",
         github: 'https://github.com/noaheakin/breakout-frontend',
         youtube_link: 'https://www.youtube.com/watch?v=GY6GQ3_qELE&feature=youtu.be',
         video: breakoutDemo
