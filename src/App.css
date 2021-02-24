@@ -22,7 +22,7 @@
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 10%;
+  padding-bottom: 10%;        
 
 }
 
@@ -52,13 +52,13 @@ a {
     z-index: 1;
     transition: all .6s cubic-bezier(.19,1,.22,1);
     background-color:transparent;
-    border-color: black;
 
 }
 
 a:hover {
   background-color:lightgreen;
   background-repeat: no-repeat;
+  border: solid black;
 }
 
 .ProjectVideoCard {
@@ -90,4 +90,13 @@ a:hover {
   font-weight: 700;
   margin-bottom: 3.2rem;
   text-align: left;
+}
+
+.contactDiv {
+  background-image: linear-gradient(135deg, rgb(241, 252, 249) 40%, rgb(126, 223, 240) 60%);
+  /* -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%); */
+  /* clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%); */
+  padding: 5rem 0 5rem 0;
+  margin-top: -5rem;
+  margin-bottom: -1px;
 }

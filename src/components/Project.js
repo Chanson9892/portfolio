@@ -13,7 +13,6 @@ export default class Project extends Component {
                     <h2>{title}</h2>
                     <p>{description}</p>
                     <a target="_blank" rel="noreferrer" href={youtube_link} class="button">Video Link</a>
-                    <br></br>
                     <a target="_blank" rel="noreferrer" href={github}>Github</a>
                 </div>
                 

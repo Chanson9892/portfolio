@@ -11,9 +11,9 @@ function App() {
       <h1 className='title'>Hi, my name is Chandler Hanson! I am a Software Engineer!</h1>
       <div className='aboutDiv'>
       <div class="container">
-        <h2 class="section-title">
+        <h1 class="section-title">
           About me
-        </h2>
+        </h1>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
@@ -61,6 +61,7 @@ function App() {
       {/* <div className='resumeDiv'>
         <a target="_blank" rel="noreferrer" href={resume}>Resume</a>
       </div> */}
+      <h1>Projects</h1>
         <ProjectList/>
       <div className='articlesDiv'>
         <h4>Here is the link to my medium homepage where I post articles weekly!</h4>
@@ -72,7 +73,6 @@ function App() {
         <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/chandler-hanson/'>
         <img  alt='Chandler Hanson LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
         </a>
-        <br></br>
         <a target="_blank" rel="noreferrer" href='https://github.com/Chanson9892'>
         <img  alt='Chandler Hanson Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' /> 
         </a>
