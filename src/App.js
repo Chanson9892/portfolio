@@ -3,15 +3,50 @@ import './App.css'
 import resume from './resume/Chandler Hanson - SE Resume 2,15,21.pdf'
 import image from './images/chandler photo.jpg'
 import ProjectList from './containers/ProjectList.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      
+      <h1 className='title'>Hi, my name is Chandler Hanson! I am a Software Engineer!</h1>
       <div className='aboutDiv'>
-        <img className='photo' src={image} alt='chandler photo' />
-        <h1 className='title'>Hello! I am Chandler Hanson! I am a Software Engineer!</h1>
-        <br></br>
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src={image}
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+              I recently I graduated from University of Washington with a Bachelor of Science in Earth and Space Science 
+          with a focus in physics and a Minor in Physics. Once COVID-19 lockdown protocols happened I took a hard look 
+          about what I want to do with my life. I looked at my university courses and noticed that my favorite classes 
+          had a programming aspect to them. The feeling of getting your code to work is a feeling like no other. 
+          I wanted to pursue that feeling and make a career out of it. This led me to Flatiron School Software Engineering 
+          Bootcamp where I learned web development skills and languages such as Ruby, Ruby on Rails, JavaScript, and React.js 
+          to make full-fledged web applications! When I am not coding, I like to bake, read, play videogames, and play basketball. 
+          </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" rel="noreferrer" href={resume}>
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+        {/* <img className='photo' src={image} alt='chandler photo' />
         <h3>About Me</h3>
         <p>Hello, my name is Chandler Hanson and I am from Sammamish, WA. 
           I recently I graduated from University of Washington with a Bachelor of Science in Earth and Space Science 
@@ -21,21 +56,19 @@ function App() {
           I wanted to pursue that feeling and make a career out of it. This led me to Flatiron School Software Engineering 
           Bootcamp where I learned web development skills and languages such as Ruby, Ruby on Rails, JavaScript, and React.js 
           to make full-fledged web applications! When I am not coding, I like to bake, read, play videogames, and play basketball. </p>
-          <br></br>
+          <br></br> */}
       </div>
-      <div className='resumeDiv'>
+      {/* <div className='resumeDiv'>
         <a target="_blank" rel="noreferrer" href={resume}>Resume</a>
-      </div>
-      <div id='projects' className='projectsDiv'>
+      </div> */}
         <ProjectList/>
-      </div>
       <div className='articlesDiv'>
-        <h4>here is the link to my medium homepage where I post articles weekly!</h4>
+        <h4>Here is the link to my medium homepage where I post articles weekly!</h4>
         <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
       </div>
       <div className='contactDiv'>
         <h2>Contact Me</h2>
-        <p>Feel free to contact me via LinkedIn or my email.</p>
+        <p>Feel free to contact me via LinkedIn or my email @ chan.hanson5@gmail.com</p>
         <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/chandler-hanson/'>
         <img  alt='Chandler Hanson LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
         </a>
