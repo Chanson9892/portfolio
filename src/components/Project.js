@@ -1,16 +1,16 @@
 import React, { Component, useEffect } from 'react';
-// import Aos from "aos";
-// import "aos/dist/aos.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Project = (props) => {
-    // useEffect(() => {
-    //     Aos.init({ duration: 1000});
-    // }, []);
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, []);
 
 
         let {title, description, github, youtube_link, video} = props.project
         return(
-            <div className='projectVideoCard'>
+            <div data-aos="fade-up" className='projectVideoCard'>
                 <video className="video" controls preload="auto" width="500" height="300" >
                     <source src={video} type="video/mp4"/>
                 </video>

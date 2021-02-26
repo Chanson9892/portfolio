@@ -12,7 +12,7 @@ I plan on updating this application as I do more work. Please feel free to conta
 
 - React.js
 - Bootstrap
-- 
+- Aos library
 
 ### Contributors
 Chandler Hanson
