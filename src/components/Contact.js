@@ -10,7 +10,7 @@ const Contact = () => {
     return(
         <div data-aos="fade-up" className='contactDiv'>
             <h2>Contact Me</h2>
-            <p>Feel free to contact me via LinkedIn or my email @ chan.hanson5@gmail.com</p>
+            <p>Feel free to contact me via LinkedIn or my email @ {< a href="mailto:chan.hanson5@gmail.com">chan.hanson5@gmail.com</a>}</p>
             <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/chandler-hanson/'>
                 <img  alt='Chandler Hanson LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
             </a>
