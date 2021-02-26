@@ -13,7 +13,7 @@ const projectData = [
     },
     {
         title:'Note Taker',
-        description: 'Note Taker is a single page application for note taking, organizing, and task management with a rails backend and a react frontend.',
+        description: 'Note Taker is a single page application for note taking, organizing, and task management with a rails backend and a react frontend. User can edit, delete, search, or filter the notes.',
         github: 'https://github.com/Chanson9892/Note-Taker',
         youtube_link: 'https://www.youtube.com/watch?v=8eTHO_oZoJU&feature=youtu.be',
         video: noteTakerDemo
