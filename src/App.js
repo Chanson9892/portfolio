@@ -3,13 +3,15 @@ import './App.css'
 import resume from './resume/Chandler Hanson - SE Resume 2,15,21.pdf'
 import image from './images/chandler photo.jpg'
 import ProjectList from './containers/ProjectList.js'
+import Medium from './components/Medium.js'
+import Contact from './components/Contact.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
   return (
     <div className="App">
-      <h1 className='title'>Hi, my name is Chandler Hanson! I am a Software Engineer!</h1>
+      <h1 className='title'>Hi, I am Chandler. I am a Software Engineer!</h1>
       <div className='aboutDiv'>
         <div class="container">
           <h1 class="section-title">About me</h1>
@@ -42,22 +44,9 @@ class App extends Component {
           </div>
         </div>
       </div>
-        <ProjectList/>
-      <div className='articlesDiv'>
-        <h4>Here is the link to my medium homepage where I post articles weekly!</h4>
-        <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
-      </div>
-      <div className='contactDiv'>
-        <h2>Contact Me</h2>
-        <p>Feel free to contact me via LinkedIn or my email @ chan.hanson5@gmail.com</p>
-        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/chandler-hanson/'>
-        <img  alt='Chandler Hanson LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
-        </a>
-        <a target="_blank" rel="noreferrer" href='https://github.com/Chanson9892'>
-        <img  alt='Chandler Hanson Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' /> 
-        </a>
-
-      </div>
+      <ProjectList/>
+      <Medium/>
+      <Contact />
     </div>
   );
   }
