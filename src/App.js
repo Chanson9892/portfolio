@@ -5,6 +5,11 @@ import image from './images/chandler photo.jpg'
 import ProjectList from './containers/ProjectList.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+//https://www.youtube.com/watch?v=huVJW23JHKQ
+//https://www.youtube.com/watch?v=JcHLxzrsRS4 
+//https://stackoverflow.com/questions/59595700/how-to-make-a-react-component-fade-in-on-scroll-using-intersectionobserver-but
+
+
 function App() {
   return (
     <div className="App">
