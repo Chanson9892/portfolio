@@ -1,7 +1,5 @@
 # Portfolio
 
-## Description
-
 Hello everyone, welcome to my personal portfolio application. Website to know a bit more about me and the kind of projects I have been doing.
 I plan on updating this application as I do more work. Please feel free to contact me to learn more about me, my work, any suggestions on how to design this application or any suggestions on future projects.
 

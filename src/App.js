@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './App.css'
 import resume from './resume/Chandler Hanson - SE Resume 2,15,21.pdf'
 import image from './images/chandler photo.jpg'
@@ -10,7 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //https://stackoverflow.com/questions/59595700/how-to-make-a-react-component-fade-in-on-scroll-using-intersectionobserver-but
 
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <h1 className='title'>Hi, my name is Chandler Hanson! I am a Software Engineer!</h1>
@@ -85,6 +86,7 @@ function App() {
       </div>
     </div>
   );
+  }
 }
 
 export default App;

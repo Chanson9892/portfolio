@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
-export default class Project extends Component {
+const Project = (props) => {
+    // useEffect(() => {
+    //     Aos.init({ duration: 1000});
+    // }, []);
 
-    render(){
-        let {title, description, github, youtube_link, video} = this.props.project
+
+        let {title, description, github, youtube_link, video} = props.project
         return(
             <div className='projectVideoCard'>
                 <video className="video" controls preload="auto" width="500" height="300" >
@@ -19,5 +24,6 @@ export default class Project extends Component {
 
             </div>
         )
-    }
 }
+
+export default Project
