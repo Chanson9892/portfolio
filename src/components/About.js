@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
-import resume from '../resume/Chandler Hanson - SE Resume 2,15,21.pdf'
+import resume from '../resume/Chandler Hanson - SE Resume 2,24,21.pdf'
 import image from '../images/chandler photo.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
