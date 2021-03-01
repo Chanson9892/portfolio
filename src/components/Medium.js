@@ -9,8 +9,8 @@ const Medium = () => {
 
         return(
             <div data-aos="fade-up" className='articlesDiv'>
-                <h4>Here is the link to my medium homepage where I post articles weekly!</h4>
-                <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
+                <h1>Medium Articles</h1>
+                <h4>I post articles weekly!</h4>
             </div>
         )
 }

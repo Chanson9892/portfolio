@@ -4,6 +4,7 @@ import About from './components/About.js'
 import ProjectList from './containers/ProjectList.js'
 import Medium from './components/Medium.js'
 import Contact from './components/Contact.js'
+import Articles from './components/Articles.js'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <About />
       <ProjectList/>
       <Medium/>
+      <Articles /> 
       <Contact />
     </div>
   );

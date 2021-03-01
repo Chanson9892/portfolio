@@ -38,6 +38,14 @@ const About = () => {
                 </p>
                 <span class="d-flex mt-3">
                   <a target="_blank" class="cta-btn cta-btn--resume" rel="noreferrer" href={resume}>View Resume</a>
+                  < a href="mailto:chan.hanson5@gmail.com">Email me</a>
+                  <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/chandler-hanson/'>
+                    <img  alt='Chandler Hanson LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
+                  </a>
+                  <a target="_blank" rel="noreferrer" href='https://github.com/Chanson9892'>
+                    <img  alt='Chandler Hanson Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' /> 
+                  </a>
+                  <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
                 </span>
               </div>
             </div>

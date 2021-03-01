@@ -17,6 +17,7 @@ const Contact = () => {
             <a target="_blank" rel="noreferrer" href='https://github.com/Chanson9892'>
                 <img  alt='Chandler Hanson Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' /> 
             </a>
+            <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
 
         </div>
     )
