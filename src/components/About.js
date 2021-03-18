@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
-import resume from '../resume/Chandler Hanson - SE Resume 3,1,21.pdf'
+import resume from '../resume/Chandler Hanson - SE Resume 3,17,21.pdf'
 import image from '../images/chandler photo.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,15 +26,12 @@ const About = () => {
               <div class="about-wrapper__info">
                 <p class="about-wrapper__info-text">
                   My journey to Software Engineering was definitely not typical. I graduated from University of Washington in June 2020
-                with a Bachelor of Science in Earth and Space Science with a focus in physics and a Minor in Physics. I graduated in the
-                middle of the pandemic! My last quarter of college was online and I lived at home to stay safe. 
-                I had some more free time on my hands since I was not able to be with my friends or able to play basketball. 
-                I took this chance to add another course to my workload. I took a scientific computing course that focused in
-                programming in Matlab. I had taken some courses already that had programming aspects to them, so I thought it would be fun.
-                I did not expect that I would completely fall in love with coding. The feeling of getting your code to work is a feeling like no other. 
-                I knew that I wanted to pursue that feeling and make a career out of it. This led me to Flatiron School Software Engineering 
-                Bootcamp where I learned web development skills and languages such as Ruby, Ruby on Rails, JavaScript, and React.js 
-                to make full-fledged web applications! I continue to develop and learn new skills as I strive to become a Software Engineer!
+                with a Bachelor of Science in Earth and Space Science with a focus in physics and a Minor in Physics. 
+                In my final quarter at University of Washington, I took a beginning scientific computing course that focused on 
+                programming in Matlab. This course changed my life. I fell in love with the struggle and satisfaction that comes with coding. 
+                I wanted to pursue that feeling and make a career out of it. This led me to completing Flatiron School’s Software Engineering 
+                Bootcamp in December 2020, where I learned web development skills and languages such as Ruby, Ruby on Rails, HTML, CSS, JavaScript, and React.js 
+                to make full-stack web applications. I continue to develop and learn new skills as I strive to become a Software Engineer!
                 </p>
                 <span class="d-flex mt-3">
                   <a target="_blank" class="cta-btn cta-btn--resume" rel="noreferrer" href={resume}>View Resume</a>
