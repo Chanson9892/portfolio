@@ -26,10 +26,19 @@
 .navbar div {
   text-align: center;
 }
+.navbar p {
+  display: inline-block;
+  position: relative;
+  padding: .2rem .3rem;
+  transition: all .6s cubic-bezier(.19,1,.22,1);
+  background-color:transparent;
+  margin-bottom: 0px;
+}
 
-div.navbar div p:hover {
+.navbar p:hover {
   cursor: pointer;
-  border: solid white;
+  background-color:lightgreen;
+  border: solid black;
 }
 
 #about {
@@ -81,8 +90,8 @@ a:hover {
 
 
 .title {
-  min-height: 100vh;
-  height: 100vh;
+  min-height: 90vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
