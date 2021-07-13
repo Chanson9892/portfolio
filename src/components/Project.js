@@ -17,7 +17,7 @@ const Project = (props) => {
                 <div className="projectTextCard">
                     <h2>{title}</h2>
                     <p>{description}</p>
-                    <a target="_blank" rel="noreferrer" href={youtube_link} class="button">Video Link</a>
+                    <a target="_blank" rel="noreferrer" href={youtube_link} class="button">Demo</a>
                     <a target="_blank" rel="noreferrer" href={github}>Github</a>
                 </div>
                 

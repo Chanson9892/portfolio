@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import resume from '../resume/Chandler Hanson - SE Resume 6,15,21.pdf'
 import image from '../images/chandler photo.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import email from '../images/email.svg'
 
 const About = () => {
   useEffect(() => {
@@ -34,15 +35,19 @@ const About = () => {
                 to make full-stack web applications. I continue to develop and learn new skills as I strive to become a Software Engineer!
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" rel="noreferrer" href={resume}>View Resume</a>
-                < a href="mailto:chan.hanson5@gmail.com">Email me</a>
+                <a target="_blank" class="cta-btn cta-btn--resume" rel="noreferrer" href={resume}>Resume</a>
+                < a href="mailto:chan.hanson5@gmail.com">
+                <img  alt='Email' width='22px' src={email}/>
+                </a>
                 <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/chandler-hanson/'>
                   <img  alt='Chandler Hanson LinkedIn' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />
                 </a>
                 <a target="_blank" rel="noreferrer" href='https://github.com/Chanson9892'>
                   <img  alt='Chandler Hanson Github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg' /> 
                 </a>
-                <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>Medium</a>
+                <a target="_blank" rel="noreferrer" href='https://chandler-hanson.medium.com/'>
+                  <img  alt='Chandler Hanson Medium' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/medium.svg' />
+                </a>
               </span>
             </div>
           </div>
