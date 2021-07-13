@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eb899bcc.chunk.css",
-    "main.js": "/portfolio/static/js/main.f3259531.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f3259531.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.677240f5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.677240f5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3ede4ca4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3ede4ca4.js.map",
     "static/css/2.1c44f44c.chunk.css": "/portfolio/static/css/2.1c44f44c.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/Chandler Hanson - SE Resume 6,15,21.c2b5b86e.pdf": "/portfolio/static/media/Chandler Hanson - SE Resume 6,15,21.c2b5b86e.pdf",
     "static/media/breakout demo.f149d32c.mp4": "/portfolio/static/media/breakout demo.f149d32c.mp4",
     "static/media/chandler photo.b4a04038.jpg": "/portfolio/static/media/chandler photo.b4a04038.jpg",
+    "static/media/email.e8facaf0.svg": "/portfolio/static/media/email.e8facaf0.svg",
     "static/media/note taker demo.f438f72e.mp4": "/portfolio/static/media/note taker demo.f438f72e.mp4",
     "static/media/recipe finder demo.d70f1e2a.mp4": "/portfolio/static/media/recipe finder demo.d70f1e2a.mp4"
   },
@@ -25,6 +26,6 @@
     "static/css/2.1c44f44c.chunk.css",
     "static/js/2.ece24b01.chunk.js",
     "static/css/main.eb899bcc.chunk.css",
-    "static/js/main.f3259531.chunk.js"
+    "static/js/main.677240f5.chunk.js"
   ]
 }
